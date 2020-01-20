@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= Rails.application.class.module_parent_name %></title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <% if notice %>
+      <meta name="flash-notice" content="<%= notice %>" />
+    <% end %>
+    <% if alert %>
+      <meta name="flash-alert" content="<%= alert %>" />
+    <% end %>
+
+    <%= stylesheet_pack_tag 'ui', media: 'all' %>
+    <%= stylesheet_link_tag 'ui', media: 'all' %>
+  </head>
+  <body>
+    <div id="ui-app"></div>
+    <%= javascript_pack_tag 'ui' %>
+  </body>
+</html>
