@@ -8,7 +8,7 @@
     "@rails/ujs": "^6.0.0",
     "axios": "yasuf/axios#update-dist",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "prop-types": "^15.7.2",
     "qs": "^6.9.1",
     "react": "^16.12.0",
